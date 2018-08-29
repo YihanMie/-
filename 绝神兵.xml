@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<timeline>
+	<name>究极神兵绝境战</name>
+	<rev>v1.0.0</rev>
+	<description>作者: Yihanmie | ID: 手残皮皮狗(静语庄园) | 本时间轴基于NGA提供的E团版本timeline</description>
+	<zone>究极神兵绝境战</zone>
+	<locale>CN</locale>
+	<entry>P1</entry>
+	<start>0039:战斗开始</start>
+	
+	<!-- -4为提前4秒播报，可按需更改 -->
+	<default target-element="Activity" target-attr="notice-o" value="-4"/>
+	<default target-element="Activity" target-attr="notice-d" value="Both"/>
+	
+	<s name="P1">
+		<a time="005" text="突风" sync="正在发动“螺旋气流”" icon="治疗.png"/>
+		<a time="014" text="大旋风"/>
+		<a time="016" text="羽毛飞散"/>
+		<a time="021" text="螺旋气流" sync="starts using スリップストリーム”"/>
+		<a time="027" text="下行突风"/>
+		<a time="034" text="飞翎雨" notice="躲羽毛"/>
+		<a time="039" text="寒风之啸" sync="starts using ミストラルシュリーク"/>
+		<a time="049" text="烈风刃" sync="starts using ウィンドブレード"/>
+		<a time="055" text="烈风刃"/>
+		<a time="069" text="飞翎雨" notice="躲羽毛"/>
+		<a time="076" text="大气爆发" sync="starts using エリアルブラスト"/>
+		<a time="086" text="海市蜃楼" />
+		<a time="090" text="飞翎雨" notice="躲羽毛"/>
+		<a time="096" text="邪轮旋风" sync="starts using ウィケッドホイール" notice="旋风远离"/>
+		<a time="100" text="突风" icon="治疗.png"/>
+		<a time="102" text="飞翎雨" notice="躲羽毛"/>
+		<a time="109" text="羽毛飞散"/>
+		<a time="119" text="螺旋气流" sync="starts using スリップストリーム"/>
+		<a time="120" text="接线" notice="接线"/>
+		<a time="125" text="下行突风"/>
+		<a time="126" text="超级气旋"/>
+		<a time="128" text="飞翎雨" notice="躲羽毛"/>
+		<a time="140" text="螺旋气流" sync="starts using スリップストリーム"/>
+		<a time="148" text="邪轮旋风" sync="starts using スリップストリーム" notice="旋风远离"/>
+		<a time="153" text="高压气旋" notice="月环靠近"/>
+		<a time="156" text="分摊" notice="分摊"/>
+		<a time="159" text="P1结束" goto="P2"/>
+	</s>
+	
+	<s name="P2">
+		<a time="024" text="火神降落" notice="火神降落"/>
+		<a time="027" text="光辉炎柱"/>
+		<a time="029" text="冲锋"/>
+		<a time="033" text="地狱业火" sync="永垂不朽"/>
+		<a time="045" text="火神爆裂" notice="防击退准备"/>
+		<a time="048" text="灼热咆哮" notice="三连死刑"/>
+		<a time="051" text="灼热咆哮"/>
+		<a time="055" text="灼热咆哮"/>
+		<a time="058" text="台词校准" sync="兵贵神速"/>
+		<a time="061" text="火神柱"/>
+		<a time="066" text="炎狱之锁" notice="火神连线"/>
+		<a time="069" text="热风" notice="热风准备"/>
+		<a time="071" text="地火" notice="地火准备引导"/>
+		<a time="095" text="地狱业火" sync="因果报应"/>
+		<a time="106" text="热风" notice="热风准备"/>
+		<a time="109" text="地火" notice="地火准备引导"/>
+		<a time="120" text="十字龙车" notice="十字龙车"/>
+		<a time="125" text="热风" notice="热风准备"/>
+		<a time="133" text="分摊" notice="分摊"/>
+		<a time="139" text="龙车准备" notice="龙车准备"/>
+		<a time="153" text="boss下地"/>
+		<a time="160" text="灼热咆哮" notice="三连死刑"/>
+		<a time="163" text="灼热咆哮"/>
+		<a time="168" text="灼热咆哮"/>
+		<a time="173" text="地火" notice="地火准备引导"/>
+		<a time="181" text="分摊" notice="分摊"/>
+		<a time="185" sync="不共戴天" goto="P3"/>
+	</s>
+	
+	<s name="P3">
+		<a time="015" text="大地粉碎" sync="发动了“大地粉碎”"/>
+		<a time="018" text="大地之怒" sync="'大地の怒り'に砕け散れぇぇぇぇぇ"/>
+		<a time="026" text="台词校准" sync="横暴なるヒトの子よ"/>
+		<a time="033" text="(′)︵" notice="死刑"/>
+		<a time="034" text="流沙" sync="starts using 大地の重み" notice="流沙"/>
+		<a time="040" text="泰坦上天"/>
+		<a time="045" text="大地粉碎"/>
+		<a time="048" text="陨石"/>
+		<a time="050" text="大震怒" sync="starts using 大激震" notice="大震怒"/>
+		<a time="057" text="石牢点名" notice="石牢点名"/>
+		<a time="058" text="冲拳" sync="(正在发动“地裂”|14:2B6F)"/>
+		<a time="063" text="冲拳"/>
+		<a time="068" text="激震*8" notice="激震八连"/>
+		<a time="081" text="流沙" sync="正在发动“大地之重”" notice="流沙"/>
+		<a time="086" text="万变冲拳" sync="(正在发动“地裂”|14:2B71)" notice="万变冲拳"/>
+		<a time="095" text="泰坦上天"/>
+		<a time="101" text="大地粉碎"/>
+		<a time="103" text="石牢" sync="憤怒の血が、我が心臓に注ぎ込む" notice="打石牢"/>
+		<a time="115" text="万变冲拳" sync="(正在发动“地裂”|14:2B71)" notice="万变冲拳"/>
+		<a time="122" text="激震*6" notice="激震六连"/>
+		<a time="135" text="(′)︵" notice="死刑"/>
+		<a time="137" text="陨石"/>
+		<a time="139" text="流沙" notice="流沙"/>
+		<a time="145" text="万变冲拳" sync="(正在发动“地裂”|14:2B71)" notice="万变冲拳"/>
+		<a time="159" text="(′)︵" notice="死刑"/>
+		<a time="162" text="三连流沙" sync="starts using 大地の重み" notice="三连流沙"/>
+		<a time="173" text="激震*8" notice="激震八连" goto="P4"/>
+	</s>
+	
+	<s name="P4">
+		<a time="068" text="泰坦上天" sync="愛しき子らの悲嘆、いずれ必ず" notice="泰坦上天，转阶段"/>
+		<a time="071" text="诱导冲击" notice="诱导冲击"/>
+		<a time="080" text="浮游炮" sync="正在发动“自爆”"/>
+		<a time="093" text="死亡宣告" sync="光の使徒よ、消え去るがいい"/>
+		<a time="102" text="拉哈布雷亚登场" sync="正在发动“冥暗”"/>
+		<a time="115" text="拉哈布雷亚死亡" sync="アルテマウェポンの真の力"/>
+		<a time="118" text="究极神兵登场"/>
+		<a time="120" text="台词校准" sync="渦なす生命の色"/>
+		<a time="125" text="究极" sync="正在发动“究极”"/> 
+		<a time="130" text="台词校准" sync="絶望の暗き底へと沈むがいい"/>
+		<a time="134" text="台词校准" sync="蛮神をふたたび取り込み"/>
+		<a time="158" text="换场景"/>
+		<a time="165" text="以太波动"/>
+		<a time="172" text="吸附式以太炸弹"/>
+		<a time="174" text="诱导射线" sync="正在发动“诱导射线”"/>
+		<a time="186" text="第一次运动会" notice="第一次运动会"/>
+		<a time="196" text="走位" notice="走位"/>
+		<a time="201" text="万变冲拳" notice="万变冲拳"/>
+		<a time="203" text="火神冲锋" notice="火神冲锋"/>
+		<a time="206" text="月环" notice="月环"/>
+		<a time="222" text="地火" notice="地火准备引导"/>
+		<a time="232" text="光辉炎柱"/>
+		<a time="235" text="第二次运动会" notice="第二次运动会"/>
+		<a time="246" text="激震*7" notice="激震七连"/>
+		<a time="249" text="风神登场" notice="风神登场"/>
+		<a time="254" text="钢铁战车" notice="钢铁战车"/>
+		<a time="256" text="飞翎雨" notice="躲羽毛"/>
+		<a time="257" text="诱导射线" sync="正在发动“诱导射线”"/>
+		<a time="260" text="飞翎雨" notice="躲羽毛"/>
+		<a time="267" text="第三次运动会" notice="第三次运动会"/>
+		<a time="276" text="流沙" notice="流沙"/>
+		<a time="278" text="分摊" notice="分摊"/>
+		<a time="280" text="接线" notice="接线"/>
+		<a time="281" text="青磷炸弹" notice="青磷炸弹"/>
+		<a time="285" text="紫连线" notice="紫连线"/>
+		<a time="287" text="飞翎雨" notice="躲羽毛"/>
+		<a time="286" text="热风" notice="热风准备"/>
+		<a time="290" text="青磷炸弹" notice="青磷炸弹"/>
+		<a time="292" text="冲拳龙车加接线"/>
+		<a time="305" text="飞翎雨" notice="躲羽毛"/>
+		<a time="306" text="以太波动" notice="以太波动"/>
+		<a time="314" text="台风眼"/>
+		<a time="318" text="诱导射线" sync="正在发动“诱导射线”"/>
+		<a time="326" text="台风眼" notice="台风眼"/>
+		<a time="328" text="光辉炎柱"/>
+		<a time="338" text="台风眼" notice="台风眼"/>
+		<a time="339" text="火神爆裂" notice="防击退准备"/>
+		<a time="343" text="诱导射线" sync="正在发动“诱导射线”"/>
+		<a time="351" text="第四次运动会" notice="第四次运动会"/>
+		<a time="360" text="地火" notice="地火引导"/>
+		<a time="361" text="突风点名"/>
+		<a time="362" text="地火" notice="地火引导"/>
+		<a time="363" text="石牢" notice="打石牢"/>
+		<a time="364" text="地火" notice="地火引导"/>
+		<a time="367" text="风神顺劈"/>
+		<a time="369" text="飞翎雨" notice="躲羽毛"/>
+		<a time="371" text="飞翎雨" notice="躲羽毛"/>
+		<a time="379" text="冲拳分摊接线"/>
+		<a time="387" text="飞翎雨" notice="躲羽毛"/>
+		<a time="391" text="以太波动" notice="以太波动"/>
+		<a time="396" text="究极" sync="正在发动“究极”"/>
+		<a time="408" text="以太炸弹"/>
+		<a time="425" text="人群A集合" notice="人群A集合"/>
+		<a time="434" text="吸附式以太炸弹"/>
+		<a time="441" text="风神钢铁战车"/>
+		<a time="447" text="风神月环"/>
+		<a time="452" text="大气爆发"/>
+		<a time="457" text="飞翎雨" notice="躲羽毛"/>
+		<a time="460" text="人群A集合" notice="人群A集合"/>
+		<a time="462" text="地火" notice="地火准备引导"/>
+		<a time="464" text="十字龙车"/>
+		<a time="473" text="地狱业火"/>
+		<a time="477" text="人群A集合" notice="人群A集合"/>
+		<a time="479" text="流沙" notice="流沙"/>
+		<a time="493" text="大地之怒"/>
+		<a time="502" text="地面标记"/>
+		<a time="523" text="开始狂暴" notice="开始狂暴"/>
+		<a time="551" text="狂暴结束"/>
+	</s>
+	
+</timeline>
