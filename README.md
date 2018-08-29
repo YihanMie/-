@@ -8,7 +8,7 @@ v1.0.0
 ID: 手残皮皮狗(静语庄园)
 
 
-本时间轴基于NGA提供的E团版本timeline
+本时间轴基于[NGA提供的E团版本timeline](http://rsync3.ngacn.cc/read.php?tid=14301987)
 
 
 
