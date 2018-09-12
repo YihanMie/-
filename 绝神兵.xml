@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <timeline>
 	<name>究极神兵绝境战</name>
-	<rev>v1.0.0</rev>
+	<rev>v1.1.0</rev>
 	<description>作者: Yihanmie | ID: 手残皮皮狗(静语庄园) | 本时间轴基于NGA提供的E团版本timeline</description>
 	<zone>究极神兵绝境战</zone>
 	<locale>CN</locale>
 	<entry>P1</entry>
 	<start>0039:战斗开始</start>
 	
+	<!-- 啥时候出本地解包啊啊啊我想知道sync的正则匹配日志日语能不能用 -->
 	<!-- -4为提前4秒播报，可按需更改 -->
 	<default target-element="Activity" target-attr="notice-o" value="-4"/>
 	<default target-element="Activity" target-attr="notice-d" value="Both"/>
 	
 	<s name="P1">
-		<a time="005" text="突风" sync="正在发动“螺旋气流”" icon="治疗.png"/>
+		<a time="005" text="突风" sync="正在发动“螺旋气流”"/>
 		<a time="014" text="大旋风"/>
 		<a time="016" text="羽毛飞散"/>
 		<a time="021" text="螺旋气流" sync="starts using スリップストリーム”"/>
