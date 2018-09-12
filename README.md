@@ -20,7 +20,7 @@ ID: 手残皮皮狗(静语庄园)
 每个机制的语音提示可以根据需要自行调整，可参考文件内写好的notice属性。
 
 
-所有Hojoring全家桶里的时间轴文件可以自定义的功能它都可以。
+[Hojoring全家桶](https://github.com/canisminor1990/ffxiv-timeline/blob/master/doc.md)语法文档。
 
 
 欢迎一起交流一起校准。~~如果有的话（咕咕咕~~
